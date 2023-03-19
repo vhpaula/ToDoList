@@ -1,0 +1,222 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+  border: none;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  gap: 100px;
+
+  background-color: #1a1a1a;
+}
+
+header.header {
+  width: 100%;
+  background-color: #0d0d0d;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+header.header > .header-container {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 53px;
+}
+
+header.header > .header-container > .logo {
+  width: auto;
+  height: 48px;
+  margin-top: 88px;
+}
+
+header.header > .header-container > .containerInputNewToDo {
+  width: 100%;
+  max-width: 736px;
+  height: 54px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+
+header.header > .header-container > .containerInputNewToDo > input {
+  width: 100%;
+  max-width: 638px;
+  height: 54px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 16px;
+  gap: 8px;
+  background: #262626;
+  border: 1px solid #0d0d0d;
+  border-radius: 8px;
+}
+
+header.header
+  > .header-container
+  > .containerInputNewToDo
+  > input::placeholder,
+  header.header
+  > .header-container
+  > .containerInputNewToDo
+  > input {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+  color: #808080;
+}
+
+header.header > .header-container > .containerInputNewToDo > button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 16px;
+  gap: 8px;
+  width: 90px;
+  height: 52px;
+  background: #1e6f9f;
+  border-radius: 8px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 140%;
+  color: #f2f2f2;
+}
+
+main.main {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+main.main > .main-container {
+  width: 90%;
+  max-width: 736px;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+main.main > .main-container > .tasks-info {
+  display: flex;
+  justify-content: space-between;
+}
+
+main.main > .main-container > .tasks-info > p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  color: #4ea8de;
+}
+
+main.main > .main-container > .tasks-info > p > span {
+  display: flex;
+  padding: 2px 8px;
+  gap: 10px;
+  background: #333333;
+  border-radius: 999px;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 15px;
+  color: #d9d9d9;
+}
+
+main.main > .main-container > .tasks-info > p.completed-tasks {
+    color: #8284FA
+}
+
+main.main > .main-container > .tasks {
+  display: flex;
+  flex-direction: column-reverse;
+  gap: 12px;
+  border-top: 1px solid #333333;
+  border-radius: 8px;
+}
+
+main.main > .main-container > .tasks > .none-tasks {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 244px;
+    gap: 1rem;
+}
+
+main.main > .main-container > .tasks > .none-tasks > p {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 140%;
+    text-align: center;
+    color: #808080;
+}
+
+main.main > .main-container > .tasks > .none-tasks > p > span {
+    font-weight: 400;
+}
+
+main.main > .main-container > .tasks > .task {
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  grid-template-rows: max-content;
+  align-items: center;
+  justify-content: center;
+  padding: 16px;
+  gap: 24px;
+  background: #262626;
+  border: 1px solid #333333;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.06);
+  border-radius: 8px;
+  color: #f2f2f2;
+}
+
+main.main > .main-container > .tasks > .task > input[type="checkbox"] {
+  width: 18px;
+  height: 18px;
+  cursor: pointer;
+}
+
+main.main > .main-container > .tasks > .task > p {
+  text-decoration: dashed;
+  text-align: justify;
+}
+
+main.main > .main-container > .tasks > .task > i:hover {
+  color: #e74c3c;
+}
+
+/* Utilitis */
+
+.checked {
+  text-decoration: line-through !important;
+  color: #f2f2f291 !important;
+}
+
+.error {
+  border: 1.3px solid rgba(255, 0, 0, 0.689) !important;
+}
+
+.error::placeholder {
+  color: rgba(255, 0, 0, 0.689) !important;
+}
+
+.display-none {
+    display: none !important;
+}

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ToDo - List</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="header-container">
+        <img src="./img/logo.svg" alt="" class="logo" />
+
+        <div class="containerInputNewToDo">
+          <input
+            type="text"
+            name=""
+            class="new-task-input"
+            placeholder="Adicione uma nova tarefa..."
+          />
+          <button class="new-task-button">
+            Criar
+            <!-- <i class="far fa-trash-alt"></i> -->
+            <i class="fas fa-plus-circle"></i>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <main class="main">
+      <div class="main-container">
+        <div class="tasks-info">
+          <p class="created-tasks">
+            Tarefas criadas
+            <span> 0<!-- countTasks --> </span>
+          </p>
+          <p class="completed-tasks">
+            Concluídas
+            <span>0</span>
+          </p>
+        </div>
+        <div class="tasks">
+
+          <div class="none-tasks">
+            <img src="./img/task-icon.svg" alt="Ícone de tarefas">
+            <p>
+              Você ainda não tem tarefas cadastradas <br>
+              <span>Crie tarefas e organize seus itens a fazer</span>
+            </p>
+          </div>
+
+      
+            <!-- <div class="task">
+              <input type="checkbox" name="" id="check" />
+              <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Qui
+                libero at necessitatibus consequatur expedita sit debitis dolore,
+                facilis quos. Sunt, obcaecati! Aperiam, facere asperiores vel
+                sequi rerum labore? Quos, exercitationem.
+              </p>
+              <i class="fas fa-trash"></i>
+            </div> -->
+        </div>
+      </div>
+    </main>
+
+    <script
+      src="https://kit.fontawesome.com/f9e19193d6.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./scripts.js"></script>
+  </body>
+</html>
