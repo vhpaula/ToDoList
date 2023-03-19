@@ -33,13 +33,13 @@ function handleMutationObserver(mutations) {
   } else {
     divNoneTasks.classList.remove("display-none")
   }
-  console.log("ok" + countTasks())
+
   mutations.forEach(function () {
     const spanCountTasks = document.querySelector(".created-tasks span");
     spanCountTasks.innerText = countTasks();
 
     const spanCompletedTasks = document.querySelector(".completed-tasks span");
-    spanCompletedTasks.innerText = TasksAndCompletedTasks();
+    spanCompletedTasks.innerText = countCompletedTasks() + " de " + countTasks();
   });
 }
 
@@ -90,10 +90,10 @@ const handleClick = (taskContent, inputCheckedTask) => {
 
   if (inputCheckedTask.checked) {
     taskContent.classList.add("checked");
-    spanCompletedTasks.innerText = TasksAndCompletedTasks();
+    spanCompletedTasks.innerText = countCompletedTasks() + " de " + countTasks();
   } else {
     taskContent.classList.remove("checked");
-    spanCompletedTasks.innerText = TasksAndCompletedTasks();
+    spanCompletedTasks.innerText = countCompletedTasks() + " de " + countTasks();
   }
 };
 
