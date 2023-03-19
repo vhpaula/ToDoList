@@ -34,7 +34,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 My ToDo List é um app que permite o usuário inclur tarefas, marca tarefas como concluídas e excluir tarefas. Essa lista de tarefas pode ser muito útil para quem precisa organizar as suas atividades diárias ou semanais de uma maneira simples e eficiente. Com essa página, o usuário terá um controle maior sobre as suas tarefas e poderá aumentar a sua produtividade de forma significativa. Além disso, o design moderno e agradável da página irá proporcionar uma experiência de uso agradável e intuitivo para o usuário. <br/>
 
-- [Visite o projeto online](https://vhpaula.github.io/my-todo-list)
+- [Visite o projeto online](https://vhpaula.github.io/my-ToDoList)
 
 ## 🔖 Layout
 
