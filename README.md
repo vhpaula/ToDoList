@@ -18,7 +18,7 @@
 <br>
 
 <p align="center">
-  <img alt="projeto My ToDo List" src=".github/preview.jpg" width="100%">
+  <img alt="projeto My ToDo List" src=".github/preview.svg" width="100%">
 </p>
 
 ## 🚀 Tecnologias
