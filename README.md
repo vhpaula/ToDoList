@@ -40,10 +40,6 @@ My ToDo List é um app que permite o usuário inclur tarefas, marca tarefas como
 
 O layout do projeto foi desenvolvido por Matheus Susko (Instagram: @suskosk) e pode ser visualizado através [DESSE LINK](https://www.figma.com/community/file/1175262836322989600/ToDo-List-%F0%9F%91%85). É necessário ter conta no [Figma](https://figma.com) para acessá-lo.
 
-## :memo: Licença
-
-Esse projeto está sob a licença MIT.
-
 ---
 
 Feito com ♥ by Vitor Henrique
